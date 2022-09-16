@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-block-start: 2rem;
+  margin-inline: 2rem;
+  position: relative;
+}
+
+.box {
+  height: 600px;
+  background-color: #ccc;
+
+  display: grid;
+  place-items: center;
+}
+
+.nav-control {
+  z-index: 1;
+  height: 5rem;
+  width: 2rem;
+  background-color: #800;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: grid;
+  place-items: center;
+  color: #eee;
+  font-style: 2rem;
+}
+
+.nav-control:hover {
+  cursor: pointer;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
